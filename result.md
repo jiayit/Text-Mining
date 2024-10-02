@@ -342,3 +342,126 @@ recall:     0.6994158258098778
 f1-score:   0.6934413959259597
 dimensionality: 17797
 density: 1.0
+
+
+## Feature(tf-combination)
+
+================================================================================
+Complement naive Bayes (without stopwords)
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.0175s
+test time:  0.00774s
+accuracy:   0.702
+precision:  0.7081293218397623
+recall:     0.7019383961763144
+f1-score:   0.6957457779921306
+dimensionality: 18092
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes (lowercase=false)
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.0198s
+test time:  0.00835s
+accuracy:   0.701
+precision:  0.7074685197547008
+recall:     0.7012745618693574
+f1-score:   0.6953916256244672
+dimensionality: 20729
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes (max_features=10000)
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.01s
+test time:  0.00479s
+accuracy:   0.687
+precision:  0.6917301224883583
+recall:     0.6865374402549124
+f1-score:   0.6792810293255682
+dimensionality: 10000
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes  (max_features=20000)
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.0184s
+test time:  0.0077s
+accuracy:   0.702
+precision:  0.7081293218397623
+recall:     0.7019383961763144
+f1-score:   0.6957457779921306
+dimensionality: 18092
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes  (max_features=5000)
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.00943s
+test time:  0.00414s
+accuracy:   0.652
+precision:  0.6619395104240162
+recall:     0.6517525225703664
+f1-score:   0.6439041883237703
+dimensionality: 5000
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes (analyzer="word", ngram_range=(1,2))
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.044s
+test time:  0.0181s
+accuracy:   0.708
+precision:  0.720051693265411
+recall:     0.7077801380775358
+f1-score:   0.7028936205782887
+dimensionality: 64547
+density: 1.0
+
+
+
+================================================================================
+Complement naive Bayes  (analyzer="char", ngram_range=(1,2))
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.0122s
+test time:  0.00667s
+accuracy:   0.386
+precision:  0.45297230048917725
+recall:     0.385554965480616
+f1-score:   0.36738372025716975
+dimensionality: 4447
+density: 1.0
+
+
+================================================================================
+Complement naive Bayes (analyzer= "char_wb", ngram_range=(1,2))
+________________________________________________________________________________
+Training: 
+ComplementNB(alpha=0.1)
+train time: 0.0127s
+test time:  0.00582s
+accuracy:   0.385
+precision:  0.4466254205928275
+recall:     0.38515666489644185
+f1-score:   0.3657802509744029
+dimensionality: 4218
+density: 1.0
